@@ -1,0 +1,72 @@
+﻿@model BaliTree.Models.StockItems.CreateVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Stock Item</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StockItem.ItemName" class="control-label"></label>
+                <input asp-for="StockItem.ItemName" class="form-control" />
+                <span asp-validation-for="StockItem.ItemName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StockItem.Date" class="control-label"></label>
+                <input asp-for="StockItem.Date" class="form-control" />
+                <span asp-validation-for="StockItem.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StockItem.CostPrice" class="control-label"></label>
+                <input asp-for="StockItem.CostPrice" class="form-control" />
+                <span asp-validation-for="StockItem.CostPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StockItem.InStock" class="control-label"></label>
+                <input asp-for="StockItem.InStock" class="form-control"/>
+                <span asp-validation-for="StockItem.InStock" class="text-danger"></span>
+            </div>
+
+            <div class="form-group"> 
+                <label asp-for="TypeId" class="control-label">Item Type</label>
+                <select asp-for="TypeId" asp-items="@(new SelectList(Model.AllTypes, "Id", "TypeName"))" class="form-control"></select>
+                <span asp-validation-for="TypeId" class="text-danger"></span>
+            </div>
+
+
+
+            @*<div class="form-group">
+            //    <label asp-for="StockItem.Type.TypeName" class="control-label"></label>
+            //    @*<select asp-for="StockItem.Type.TypeName" asp-items="@(new SelectList(Model.AllTypes))" class="form-control"></select>
+            //    <select asp-for="StockItem.Type.TypeName" asp-items=@Html.DropDownList(Model.AllTypes) class="form-control"></select>
+
+
+            //</div>*@
+            <div>
+                <a asp-controller="StockTypes" asp-action="Create">Create New Type</a>
+            </div>
+             <div>
+                 <label></label>
+             </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

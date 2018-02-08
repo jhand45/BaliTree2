@@ -1,0 +1,56 @@
+﻿@model BaliTree.Models.StockItems.EditVM
+@{
+    ViewData["Title"] = "Edit";
+}
+<h2>Edit</h2>
+
+<h4>Stock Item</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="StockItem.Id" />
+            <input type="hidden" asp-for="StockItem.InStock" />
+            <div class="form-group">
+                <label asp-for="StockItem.ItemName" class="control-label"></label>
+                <input asp-for="StockItem.ItemName" class="form-control" />
+                <span asp-validation-for="StockItem.ItemName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StockItem.Date" class="control-label"></label>
+                <input asp-for="StockItem.Date" class="form-control" />
+                <span asp-validation-for="StockItem.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StockItem.CostPrice" class="control-label"></label>
+                <input asp-for="StockItem.CostPrice" class="form-control" />
+                <span asp-validation-for="StockItem.CostPrice" class="text-danger"></span>
+            </div>
+            @* We dont want user to be able to edit the number in stock from here, we want them to edit the events leading up to it *@
+            @*<div class="form-group">
+                <label asp-for="StockItem.InStock" class="control-label"></label>
+                <input asp-for="StockItem.InStock" class="form-control" />
+                <span asp-validation-for="StockItem.InStock" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="StockItem.ItemType.TypeName" class="control-label"></label>
+                <select asp-for="TypeId" asp-items="@(new SelectList(Model.AllTypes, "Id", "TypeName"))" class="form-control"></select>
+                <span asp-validation-for="StockItem.ItemType.TypeName" class="text-danger"></span>
+            </div>
+            <div>
+                <label></label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

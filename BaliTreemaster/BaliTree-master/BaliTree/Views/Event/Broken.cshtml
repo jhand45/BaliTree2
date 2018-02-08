@@ -1,0 +1,44 @@
+﻿@model BaliTree.Models.Event.BrokenVM
+
+
+@{
+    ViewData["Title"] = "Damaged Goods";
+}
+
+<h2>Damaged Goods</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Broken">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="stockEvent.EventType" />
+
+            <div class="form-group">
+                <label asp-for="stockId" class="control-label">Stock Item</label>
+                <select asp-for="stockId" asp-items="@(new SelectList(Model.StockItems, "Id", "ItemName"))" class="form-control"></select>
+                <span asp-validation-for="stockId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="stockEvent.Date" class="control-label"></label>
+                <input asp-for="stockEvent.Date" class="form-control" />
+                <span asp-validation-for="stockEvent.Date" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="stockEvent.Change" class="control-label">Number of Damaged Items</label>
+                <input asp-for="stockEvent.Change" class="form-control" />
+                <span asp-validation-for="stockEvent.Change" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

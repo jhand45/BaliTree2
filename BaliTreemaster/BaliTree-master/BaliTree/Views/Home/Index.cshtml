@@ -1,0 +1,62 @@
+﻿<div id="homepage">
+
+<div class="col-md-12" id="hometitle">
+    <h1>The Bali Tree</h1>
+</div>
+<div class="col-md-12" id="homesubtitle">
+    <h2> Stock Management System</h2>
+</div>
+
+<p></p>
+<p></p>
+<p></p>
+
+<div class="row">
+    <div class="col-md-4" id="homelinks">
+        <h3>Stock by Item</h3>
+            <ul>
+                <li>
+                    <a asp-controller="StockItems" asp-action="Index">Manage Stock by Item</a>
+                </li>
+                <li>
+                    <a asp-controller="StockItems" asp-action="Create">Create New Stock Item</a>
+                </li>
+            </ul>
+    </div>
+    <p></p>
+    <p></p>
+
+    <div class="col-md-4" id="homelinks">
+        <h3>Stock by Type</h3>
+            <ul>
+                <li>
+                    <a asp-controller="StockTypes" asp-action="Index">Manage Stock by Type</a>
+                </li>
+                <li>
+                    <a asp-controller="StockTypes" asp-action="Create">Create New Type</a>
+                </li>
+            </ul>
+   </div>
+    <p></p>
+    <p></p>
+
+    <div class="col-md-4" id="homelinks">
+        <h3>Stock Events</h3>
+        <ul>
+            <li>
+                <a asp-controller="Event" asp-action="Sold">New Sale</a>
+            </li>
+            <li>
+                <a asp-controller="Event" asp-action="Recieved">Items Recieved</a>
+            </li>
+            <li>
+                <a asp-controller="Event" asp-action="Broken">Report Damaged Goods</a>
+            </li>
+            <li>
+                <a asp-controller="Event" asp-action="Adjustment">Stocktake Rectification</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+

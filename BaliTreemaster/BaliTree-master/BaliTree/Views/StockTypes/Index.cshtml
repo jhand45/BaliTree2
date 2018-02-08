@@ -1,0 +1,49 @@
+﻿@model BaliTree.Models.StockTypes.IndexVM;
+
+@{
+    ViewData["Title"] = "Stock Type Index - ";
+}
+
+<h2>Stock Index By Type</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-default">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Type of Stock
+                </th>
+                <th>
+                    Average Cost
+                </th>
+                <th>
+                    RRP
+                </th>
+                <th>
+                    Amount In Stock
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.SubIndex) {
+        <tr>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.StockType.Id">@Html.DisplayFor(modelItem => item.StockType.TypeName)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AverageCost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RRP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InStock)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
