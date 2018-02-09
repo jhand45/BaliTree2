@@ -1,12 +1,9 @@
 ﻿@model BaliTree.Models.StockItems.CreateVM
 
-@{
-    ViewData["Title"] = "Create";
-}
+<div id="homesubtitle">
+    <h2>Create New Stock Item</h2>
+</div>
 
-<h2>Create</h2>
-
-<h4>Stock Item</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -38,18 +35,8 @@
                 <select asp-for="TypeId" asp-items="@(new SelectList(Model.AllTypes, "Id", "TypeName"))" class="form-control"></select>
                 <span asp-validation-for="TypeId" class="text-danger"></span>
             </div>
-
-
-
-            @*<div class="form-group">
-            //    <label asp-for="StockItem.Type.TypeName" class="control-label"></label>
-            //    @*<select asp-for="StockItem.Type.TypeName" asp-items="@(new SelectList(Model.AllTypes))" class="form-control"></select>
-            //    <select asp-for="StockItem.Type.TypeName" asp-items=@Html.DropDownList(Model.AllTypes) class="form-control"></select>
-
-
-            //</div>*@
             <div>
-                <a asp-controller="StockTypes" asp-action="Create">Create New Type</a>
+                <a asp-controller="StockTypes" asp-action="Create">Create New Stock Type</a>
             </div>
              <div>
                  <label></label>

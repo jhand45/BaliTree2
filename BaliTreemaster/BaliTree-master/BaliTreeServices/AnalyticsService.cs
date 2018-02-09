@@ -17,8 +17,15 @@ namespace BaliTreeServices
                 cost += item.CostPrice;
                 count += 1;
             }
+            try
+            {
+                return (cost / count);
+            }
 
-            return (cost / count);
+            catch
+            {
+                return 0;
+            }
         }
 
         public int InStock(IEnumerable<StockItem> items)

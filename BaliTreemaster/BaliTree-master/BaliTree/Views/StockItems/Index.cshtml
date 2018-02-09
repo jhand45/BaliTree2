@@ -1,18 +1,15 @@
 ﻿@model IEnumerable<BaliTreeData.Models.StockItem>
 
-@{
-    ViewData["Title"] = "Stock Item Index - ";
-}
+<div id="homesubtitle">
+    <h2>Stock Items</h2>
+</div>
 
-<h2>Stock Item Index</h2>
-
-<p>
-    <a asp-action="Create" class="btn btn-default">Create New</a>
-
-</p>
-<table class="table">
-    <thead>
-        <tr>
+    <p>
+        <a asp-action="Create" class="btn btn-default">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
                 <th>
                     @Html.DisplayNameFor(model => model.ItemName)
                 </th>
@@ -25,33 +22,32 @@
                 <th>
                     @Html.DisplayNameFor(model => model.InStock)
                 </th>
-
                 <th>
                     @Html.DisplayNameFor(model => model.ItemType.TypeName)
                 </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.ItemName)</a>
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CostPrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.InStock)
-            </td>
-
-            <td>
-                @Html.DisplayFor(modelItem => item.ItemType.TypeName)
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.ItemName)</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CostPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.InStock)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ItemType.TypeName)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

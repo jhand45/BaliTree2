@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using BaliTreeData;
 using BaliTree.Models.Event;
 using BaliTreeData.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaliTree.Controllers
 {
@@ -15,18 +16,22 @@ namespace BaliTree.Controllers
         private IStockChanges _stockChanges;
         private IStockItems _stockItems;
         private IStockTypes _stockTypes;
+        private IStockEvents _stockEvents;
 
-        public EventController(BaliTreeContext context, IStockChanges stockChanges, IStockItems stockItems, IStockTypes stockTypes)
+        public EventController(BaliTreeContext context, IStockChanges stockChanges, IStockItems stockItems, IStockTypes stockTypes, IStockEvents stockEvents)
         {
             _context = context;
             _stockChanges = stockChanges;
             _stockItems = stockItems;
             _stockTypes = stockTypes;
+            _stockEvents = stockEvents;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var VM = new IndexVM();
+            VM.AllEvents = _stockEvents.GetAll();
+            return View(VM.AllEvents);
         }
 
         public IActionResult Success()

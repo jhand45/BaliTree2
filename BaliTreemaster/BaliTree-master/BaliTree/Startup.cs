@@ -32,6 +32,7 @@ namespace BaliTree
             services.AddScoped<IStockChanges, StockChangeService>();
             services.AddScoped<IStockItems, StockItemsServices>();
             services.AddScoped<IStockTypes, StockTypesServices>();
+            services.AddScoped<IStockEvents, StockEventsService>();
 
             var connection = @"Server=(localdb)\mssqllocaldb;Database=BaliTree;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<BaliTreeContext>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("BaliTree")));

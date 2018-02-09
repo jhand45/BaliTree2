@@ -13,6 +13,19 @@
     /*background-color: #453b15;*/
 }
 
+#warning{
+    color:red;
+    font-weight:bold;
+    text-align:center;
+    font-size:larger;
+}
+
+#warningsmall{
+    color:red;
+    text-align:center;
+}
+
+
 
 /*header and footer in _layout*/
 .navbar {
@@ -26,10 +39,18 @@
     box-shadow: none;
 }
 
-.nav-colors{
-    color:#D2AB65;
-
+.navbar-inverse .navbar-nav > li > a {
+    color: #D2AB65;
 }
+
+
+.navbar-inverse .navbar-brand {
+    color: #D2AB65;
+}
+
+
+
+
 
 /*Home Page Customization*/
 #hometitle {

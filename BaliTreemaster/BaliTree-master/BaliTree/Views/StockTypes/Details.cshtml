@@ -1,21 +1,11 @@
 ﻿@model BaliTree.Models.StockTypes.DetailsVM
 
-@{
-    ViewData["Title"] = "Details";
-}
-
-<h2>Details</h2>
-
+<div id="homesubtitle">
+    <h2>@Html.DisplayFor(model => model.StockType.TypeName)</h2>
+</div>
 <div>
-    <h4>StockType</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.StockType.TypeName)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.StockType.TypeName)
-        </dd>
         <dt>
             @Html.DisplayNameFor(model => model.AverageCost)
         </dt>

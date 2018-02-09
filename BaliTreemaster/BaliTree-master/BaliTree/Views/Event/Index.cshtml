@@ -1,8 +1,53 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@model IEnumerable<BaliTreeData.Models.StockEvent>
 
-<h2>Event Manager</h2>
+<div id="homesubtitle">
+    <h2>Stock Events</h2>
+</div>
+    <p>
+        <a asp-action="Create" class="btn btn-default">New Event</a>
+    </p>
 
-<p>Put something nice here to explain how it all works and not be a confusing list of random events</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model=>model.StockItem.ItemType.TypeName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model=>model.StockItem.ItemName)
+                </th>
+                <th>
+                    Event Type
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Change)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.StockItem.ItemType.TypeName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StockItem.ItemName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EventType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Change)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

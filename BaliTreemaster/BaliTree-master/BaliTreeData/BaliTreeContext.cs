@@ -10,6 +10,5 @@ namespace BaliTreeData
         public DbSet<StockItem> StockItems { get; set; }
         public DbSet<StockType> StockTypes { get; set; }
         public DbSet<StockEvent> StockEvents { get; set; }
-
     }
 }
