@@ -16,3 +16,12 @@ C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeData\obj\Debug\
 C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.AssemblyInfo.cs
 C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.dll
 C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.pdb
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\bin\Debug\netcoreapp2.0\BaliTreeData.deps.json
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\bin\Debug\netcoreapp2.0\BaliTreeData.dll
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\bin\Debug\netcoreapp2.0\BaliTreeData.pdb
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.csprojResolveAssemblyReference.cache
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.csproj.CoreCompileInputs.cache
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.AssemblyInfoInputs.cache
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.AssemblyInfo.cs
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.dll
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeData\obj\Debug\netcoreapp2.0\BaliTreeData.pdb

@@ -2767,11 +2767,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj",
+      "projectUniqueName": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj",
       "projectName": "BaliTreeData",
-      "projectPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj",
+      "projectPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj",
       "packagesPath": "C:\\Users\\Hands\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeData\\obj\\",
+      "outputPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -20,3 +20,14 @@ C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeServices\obj\De
 C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.AssemblyInfo.cs
 C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.dll
 C:\Users\Hands\Downloads\BaliTree-master\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.pdb
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\bin\Debug\netcoreapp2.0\BaliTreeServices.deps.json
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\bin\Debug\netcoreapp2.0\BaliTreeServices.dll
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\bin\Debug\netcoreapp2.0\BaliTreeServices.pdb
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\bin\Debug\netcoreapp2.0\BaliTreeData.dll
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\bin\Debug\netcoreapp2.0\BaliTreeData.pdb
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.csprojResolveAssemblyReference.cache
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.csproj.CoreCompileInputs.cache
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.AssemblyInfoInputs.cache
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.AssemblyInfo.cs
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.dll
+C:\Users\Hands\Documents\GitHub\BaliTree2\BaliTreemaster\BaliTree-master\BaliTreeServices\obj\Debug\netcoreapp2.0\BaliTreeServices.pdb

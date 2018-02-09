@@ -7,7 +7,8 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" /> 
+        <link rel="stylesheet" href="~/css/site.css" />
+
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -30,10 +31,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="StockTypes" asp-action="Index">Types</a></li>
-                    <li><a asp-area="" asp-controller="StockItems" asp-action="Index">Items</a></li>
-                    <li><a asp-area="" asp-controller="Event" asp-action="Index">Events</a></li>
-
+                        <li><a asp-area="" asp-controller="StockTypes" asp-action="Index">Types</a></li>
+                        <li><a asp-area="" asp-controller="StockItems" asp-action="Index">Items</a></li>
+                        <li><a asp-area="" asp-controller="Event" asp-action="Index">Events</a></li>
                 </ul>
             </div>
         </div>
@@ -42,7 +42,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - BaliTree</p>
+            <p>&copy; 2017 - The Bali Tree</p>
         </footer>
     </div>
 

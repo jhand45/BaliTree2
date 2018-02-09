@@ -2786,11 +2786,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj",
+      "projectUniqueName": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj",
       "projectName": "BaliTreeServices",
-      "projectPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj",
+      "projectPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj",
       "packagesPath": "C:\\Users\\Hands\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeServices\\obj\\",
+      "outputPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2809,8 +2809,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj": {
-              "projectPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj"
+            "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj": {
+              "projectPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj"
             }
           }
         }

@@ -13164,11 +13164,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTree\\BaliTree.csproj",
+      "projectUniqueName": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTree\\BaliTree.csproj",
       "projectName": "BaliTree",
-      "projectPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTree\\BaliTree.csproj",
+      "projectPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTree\\BaliTree.csproj",
       "packagesPath": "C:\\Users\\Hands\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTree\\obj\\",
+      "outputPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTree\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13187,11 +13187,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj": {
-              "projectPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj"
+            "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj": {
+              "projectPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeServices\\BaliTreeServices.csproj"
             },
-            "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj": {
-              "projectPath": "C:\\Users\\Hands\\Downloads\\BaliTree-master\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj"
+            "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj": {
+              "projectPath": "C:\\Users\\Hands\\Documents\\GitHub\\BaliTree2\\BaliTreemaster\\BaliTree-master\\BaliTreeData\\BaliTreeData.csproj"
             }
           }
         }
